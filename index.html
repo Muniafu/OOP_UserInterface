@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form method ="post">
+
+        <!-- Admin Section -->
+        <fieldset>
+            <legend>Admin Login: </legend>
+            <label for="adminUsername">Username:</label>
+            <input type="text" 
+                    id="adminUsername" 
+                    name="adminUsername" 
+                    placeholder="Enter Username..." 
+                    required>
+            <br><br>
+            <label for="adminPassword">Password:</label>
+            <input type="password"
+                    id="adminPassword"
+                    name="adminPassword"
+                    placeholder="Enter Password..."
+                    required>
+            <br><br>
+            <label for="productName">Product Name:</label>
+            <input type="text" 
+                    id="productName" 
+                    name="productName" 
+                    required>
+            <br><br>
+            <label  for="productImageURL">Product Image URL:</label>
+            <input  type="url"
+                    id="productImageURL"
+                    name="productImageURL"
+                    required
+            >
+            <br><br>
+            <button type="submit" name="adminSubmit">Upload Product</button>
+        </fieldset>
+        <fieldset>
+            <legend>Customer Section:</legend>
+            <label for="customerUsername">Username:</label>
+            <input  type="text"
+                    id="customerUsername"
+                    name="customerUsername"
+                    required
+            >
+            <br><br>
+            <label for="customerPassword">Password:</label>
+            <input type="password"
+                    id="customerPassword"
+                    name="customerPassword"
+                    required
+            >
+            <br><br>
+            <button type="submit" name="customerLogin">View Product</button>
+        </fieldset>
+    </form>
+</body>
+</html>
